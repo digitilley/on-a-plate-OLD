@@ -33,13 +33,11 @@
         </div>
       </nav>
     </header>
-    
+    <!-- https://mdbootstrap.com/docs/standard/forms/overview/-->
     <!-- Main Section -->
-    <main class="d-flex container-fluid justify-content-center align-items-center text-center">
-      <div class="" >
-        <div class="log-bg p-3 m-3 row">
+    <main class="d-flex min-vh-100 container-fluid justify-content-center align-items-center text-center">
+        <div class="log-bg p-3 m-3 row border shadow">
             <h2 class="py-3">SIGN IN</h2>
-            <p class="py-3">Sign up today to start sharing and saving your favourite recipes.</p>
             <form>
                 <!-- Email input -->
                 <div class="form-outline mb-4">
@@ -72,14 +70,33 @@
                 <!-- Submit button -->
                 <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
               
+                <!-- Register buttons -->
+                <div class="text-center">
+                  <p>Not a member? <a href="#!">Register</a></p>
+                  <p>or sign up with:</p>
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+              
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                  </button>
+                </div>
               </form>
-        </div>
-       
+        </div> 
       </section>
     </main>
    
     <!-- Footer --> 
-   <footer class="bg-dark">
+   <footer class="bg-dark mt-auto">
     <div class="container py-2">
         <div class="text-center text-white">
             <ul class="socialmedia-links mb-0 list-unstyled d-flex display-inline justify-content-center">
