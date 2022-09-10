@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    Amber is a fit bitch
-</body>
+    <h1>Log in:</h1>
+    <table>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.name }}</td>
+                <td>{{ user.password }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <a href="/register">Register</a>
+</body> 
 </html>
